@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ddd!important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+nav{
+  background-color: #000;
+}
+
+
+ul {
+  list-style-type: none;
+  }
+  
+  li {
+  background: url('./assets/nave-black.svg') no-repeat left top;
+  background-size: 15px;
+  height: 15px;
+  padding-left: 20px;
+  padding-top: 6px;
+  }
+
+  li {
+    background: url('./assets/nave-black.svg') no-repeat left;
+    background-size: 16px;
+    height: 32px;
+    padding-left: 24px;
+    padding-top: 5px;
 }
